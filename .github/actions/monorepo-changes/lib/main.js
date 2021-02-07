@@ -5700,10 +5700,16 @@ async function run() {
 
 	github.getOctokit(token);
 
-	github.context;
+	const { eventName, payload } = github.context;
 	github.context.repo;
 	console.log(process.cwd());
-	console.log(JSON.stringify(github.context, null, 2));
+	// console.log(JSON.stringify(github.context, null, 2));
+
+	if (eventName === 'pull_request') {
+		console.log(github.context.payload.pull_request.base.sha);
+	} else if (eventName === 'push') {
+		 console.log(github.payload.before);
+	}
 	// 
 	// 
 
