@@ -1,0 +1,12 @@
+{
+  "name": "@test/one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"@test/one: package haas changed and is executing\n\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
