@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"@test/three: package haas changed and is executing\n\""
+    "test": "echo \"@test/three: Running tests\n\"",
+    "deploy": "echo \"@test/three: Running deploy\n\""
   },
   "keywords": [],
   "author": "",
