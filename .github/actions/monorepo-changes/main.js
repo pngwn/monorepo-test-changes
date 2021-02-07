@@ -11,6 +11,8 @@ async function run() {
 	const { owner, repo } = github.context.repo;
 	console.log(process.cwd())
 	console.log(JSON.stringify(github.context, null, 2));
+	// 
+	// 
 
 	// switch (eventName) {
 	// 	case "issues":
