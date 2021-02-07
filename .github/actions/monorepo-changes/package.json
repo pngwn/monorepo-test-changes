@@ -1,0 +1,19 @@
+{
+	"name": "projects",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "rollup -c"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@actions/core": "^1.2.6",
+		"@actions/github": "^4.0.0",
+		"@octokit/webhooks": "^7.20.0",
+		"@rollup/plugin-commonjs": "^17.0.0",
+		"@rollup/plugin-node-resolve": "^11.0.0",
+		"@types/node": "^14.14.13"
+	}
+}
