@@ -9,7 +9,7 @@ async function run() {
 
 	const { eventName, payload } = github.context;
 	const { owner, repo } = github.context.repo;
-
+	console.log(process.cwd())
 	console.log(JSON.stringify(github.context, null, 2));
 
 	// switch (eventName) {
