@@ -14,7 +14,7 @@ jobs:
           fetch-depth: 0
       - uses: ./.github/actions/monorepo-changes
         with: 
-          repo-token: ${{ GITHUB_TOKEN }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-node@v1
         with:
           node-version: 12
